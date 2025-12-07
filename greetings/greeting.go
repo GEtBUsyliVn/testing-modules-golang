@@ -2,7 +2,10 @@ package greetings
 
 import "fmt"
 
-// Hi returns a friendly greeting
-func Hi(name string) string {
+func Greeting(name string) string {
 	return fmt.Sprintf("Hi, %s", name)
+}
+
+func Goodbye(name string) string {
+	return fmt.Sprintf("Goodbye, %s", name)
 }
